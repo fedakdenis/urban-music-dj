@@ -1,2 +1,2 @@
 # urban-music-dj
-Django service to scrap, classify and tagging audio stram 
+Django service to scrap, classify and tagging audio stream 
