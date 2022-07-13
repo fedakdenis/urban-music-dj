@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+BACKGROUND_TASK_RUN_ASYNC = True 
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'mainloop',
     'rest_framework',
+    'background_task',
 ]
 
 MIDDLEWARE = [
